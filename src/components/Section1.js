@@ -4,6 +4,7 @@ import gh from '../images/github-sign.png';
 import linked from '../images/linkedin.png';
 import Wave from 'react-wavify'
 
+
 const Section1= () => {
     
 

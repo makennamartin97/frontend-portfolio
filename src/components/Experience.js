@@ -18,12 +18,12 @@ const Experience = () => {
                     <Fade top>
                     <div className="place">
                         <div className="thename">
-                            <h3 id="l1">Teaching Assistant for Amazon Career Choice</h3>
+                            <h3 id="l1">Python Teaching Assistant for Amazon Career Choice Program</h3>
                             <h3 className="year">January 2021 - Current</h3>
                         </div>
                         <div className="detail">
                             <ul>
-                                <li><img src={a}/>Helping assist Amazon employees with their assignments and career paths towards getting a job in the technical industry</li>
+                                <li><img src={a}/>Helping assist Amazon employees with their coding assignments and career paths towards getting a job in the technical industry</li>
                                 <li><img src={a}/>Supporting instructors with attendance, homework, exam grading, and lectures</li>
                                 <li><img src={a}/>Meeting with the instruction team and career services daily to plan and analyze student progression</li>
                                 <li><img src={a}/>Recording video tutorials walking through the process of building a full stack web application</li>
@@ -50,7 +50,7 @@ const Experience = () => {
                     <Fade top>
                     <div className="place">
                         <div className="thename">
-                            <h3 id="l3">Coding Dojo</h3>
+                            <h3 id="l3">Coding Dojo Graduate</h3>
                             <h3 className="year">April 2020 - August 2020</h3>
                         </div>
                         <div className="detail">
