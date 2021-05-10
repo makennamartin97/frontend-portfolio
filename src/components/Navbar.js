@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="logo-nav">
             <div className="logo-container">
         
-            <a href="/frontend-portfolio"><img src={logo} className="navlogo" alt="logo"/></a>
+            <a href="/frontend-portfolio/"><img src={logo} className="navlogo" alt="logo"/></a>
             </div>
 
             
