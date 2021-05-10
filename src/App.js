@@ -2,6 +2,8 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import Loading from './components/Loading';
 import Main from './components/Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link, Router} from '@reach/router';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,7 +20,12 @@ function App() {
       <div>
       {isLoading===true?
         <Loading/>:
-        <Main/>
+        <Router>
+          <Main path="/"/>
+
+
+        </Router>
+      
 
       }
       </div>

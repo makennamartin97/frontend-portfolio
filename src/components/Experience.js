@@ -5,7 +5,7 @@ import a from '../images/arrow.png';
 
 const Experience = () => {
     return(
-        <div className="experience">
+        <div className="experience" id="experience">
                 
             <div className="title">
                 <Spin>
@@ -41,7 +41,7 @@ const Experience = () => {
                         <div className="detail">
                             <ul>
                                 <li><img src={a}/>Planning wireframes and communicating with clients to incorporate what features they want</li>
-                                <li><img src={a}/>Building and deploying responsive web applications that are suitable for every device size</li>
+                                <li><img src={a}/>Building and deploying responsive web applications that are suitable for every device screen size</li>
                                 <li><img src={a}/>Maintaining and updating the prices, photos, and company changes</li>
                             </ul>
                         </div>
@@ -62,9 +62,12 @@ const Experience = () => {
                         </div>
                     </div>
                     </Fade>
+                    
                 </div>
                 
+                
             </div>
+            
             
          
                 

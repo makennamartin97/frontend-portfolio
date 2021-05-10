@@ -8,32 +8,14 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import Experience from './Experience';
 import Projects from './Projects';
+import Footer from './Footer';
+import About from './About'
+import Spin from 'react-reveal/Spin';
 
 
 
 
 const Main = () => {
-    function FadeInSection(props) {
-        const [isVisible, setVisible] = React.useState(false);
-        
-
-        const domRef = React.useRef();
-        React.useEffect(() => {
-          const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => setVisible(entry.isIntersecting));
-          });
-          observer.observe(domRef.current);
-        }, []);
-        return (
-          <div
-            className={`fade-in ${isVisible ? 'is-visible' : ''}`}
-            ref={domRef}
-          >
-            {props.children}
-          </div>
-        );
-      }
-
 
     return (
         <div className="main">
@@ -42,6 +24,10 @@ const Main = () => {
      
         
           <Section1/>
+          <Slide bottom>
+            <About/>
+
+          </Slide>
 
           <Slide bottom>
             <Skills/>
@@ -59,6 +45,11 @@ const Main = () => {
             <Contact/>
 
           </Slide>
+          <Slide bottom>
+            <Footer/>
+
+          </Slide>
+          
           
 
             

@@ -5,6 +5,7 @@ import open from "../images/whiteopen.png";
 
 
 
+
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -13,7 +14,7 @@ const Navbar = () => {
     
     return (
         <div className="parent">
-        <nav className="navbar sticky">
+        <nav className="nav sticky">
             <div className="logo-nav">
             <div className="logo-container">
         
@@ -25,23 +26,25 @@ const Navbar = () => {
             <ul className={click ? "nav-options active" : "nav-options"}>
                 
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#">ABOUT ME</a>
+                    <a href="/#about">ABOUT ME</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#" >SKILLS</a>
+                    <a href="/#skills" >SKILLS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#" >EXPERIENCE</a>
+                    <a href="/#experience" >EXPERIENCE</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#" >PROJECTS</a>
+                    <a href="/#projects" >PROJECTS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#" >RESUME</a>
+                    <a href="/#contact" >CONTACT</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="#" >CONTACT</a>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vRm3YCF2A6i5X5K8gVRSywGir5pEfqh2aynf6Ykko7byabrBDLLTaBPtXHKd2KfVv40DqL3B1hEp_Ql/pub">RESUME</a>
                 </li>
+               
+                
 
 
 
@@ -55,6 +58,7 @@ const Navbar = () => {
         )}
       </div>
         </nav>
+        
         </div>
     )
 }

@@ -21,13 +21,15 @@ import e from '../images/expressjs copy.png';
 
 const Skills = () => {
     return(
-        <div className="skills">
+        <div className="skills" >
+            <Spin>
                 
             <div className="title">
-                <Spin>
+              
                     <h2>Skills</h2>
-                </Spin>
+                
             </div>
+            </Spin>
             <div className="content">
             
             <div className="skillscat">
@@ -107,6 +109,7 @@ const Skills = () => {
                 <img className="skillicon" src={e} alt='expressJS'/>
                 </Roll>
             </div>
+            
                 
             
         
