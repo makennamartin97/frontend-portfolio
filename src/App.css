@@ -731,6 +731,7 @@ img{
 .modal-body ul{
   list-style-image:url('./images/checkbox.png');
   padding:20px;
+  font-family: ano2light;
 
   
 }
@@ -745,11 +746,13 @@ img{
   margin-bottom: 10px;
   margin-left: 20px;
   font-size: 20px;
+  font-family: ano2light;
   
   
 }
 .modal-body h4{
   font-size: 20px;
+  font-family: ano2light;
  
 }
 .custom-modal-style{
