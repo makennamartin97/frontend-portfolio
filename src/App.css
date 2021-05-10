@@ -438,6 +438,7 @@ label {
 .content{
   display: flex;
   justify-content: space-evenly;
+  font-family: ano2light;
 
 
 }
@@ -449,6 +450,7 @@ label {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 3px;
+  font-family: ano2light;
 
 
 }
@@ -458,6 +460,7 @@ label {
   line-height: 1.9;
   text-align: left;
   letter-spacing: 3px;
+  font-family: ano2light;
   
  
 }
@@ -502,6 +505,7 @@ label {
   margin-left: 0px;
   margin-right: 0px;
   text-decoration: none;
+  font-family: ano2light;
 }
 #l3{
   margin-right: 645px;
@@ -511,11 +515,12 @@ label {
   margin-right: 545px;
 }
 #l1{
-  margin-right: 148px;
+  margin-right: 132px;
 
 }
 .thename .year {
   font-size: 20px!important;
+  font-family: ano2light;
 }
 
 .detail ul li{
@@ -590,6 +595,7 @@ label {
   opacity: 1;
   background-color: #5200ff;
   color:white;
+  font-family: ano2light;
   
 
 }
@@ -597,6 +603,7 @@ label {
   opacity: 1;
   background-color: #5200ff;
   color:white;
+
 }
 .proj :hover .projbtn3{
   opacity: 1;
@@ -703,9 +710,10 @@ img{
 
 .footer h5{
  
-  color:black;
+  color:white;
   font-size: 18px;
   margin-left: 570px;
+  font-family: ano2light;
   
   
 }
@@ -742,9 +750,7 @@ img{
 }
 .modal-body h4{
   font-size: 20px;
-
-
-  
+ 
 }
 .custom-modal-style{
   height:100vh;
