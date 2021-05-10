@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import Loading from './components/Loading';
 import Main from './components/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link, Router} from '@reach/router';
+import { Router} from '@reach/router';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +21,7 @@ function App() {
       {isLoading===true?
         <Loading/>:
         <Router>
-          <Main path="/frontend-portfolio"/>
+          <Main path="/"/>
 
 
         </Router>

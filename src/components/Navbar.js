@@ -29,16 +29,16 @@ const Navbar = () => {
                     <a href="/#about">ABOUT ME</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/frontend-portfolio/#skills" >SKILLS</a>
+                    <a href="/#skills" >SKILLS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/frontend-portfolio/#experience" >EXPERIENCE</a>
+                    <a href="/#experience" >EXPERIENCE</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/frontend-portfolio/#projects" >PROJECTS</a>
+                    <a href="/#projects" >PROJECTS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/frontend-portfolio/#contact" >CONTACT</a>
+                    <a href="/#contact" >CONTACT</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
                     <a href="https://docs.google.com/document/d/e/2PACX-1vRm3YCF2A6i5X5K8gVRSywGir5pEfqh2aynf6Ykko7byabrBDLLTaBPtXHKd2KfVv40DqL3B1hEp_Ql/pub">RESUME</a>

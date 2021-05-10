@@ -41,9 +41,9 @@ const Section1= () => {
         paused={false}
         options={{
           height: 2,
-          amplitude: 22,
+          amplitude: 18,
           speed: 0.20,
-          points: 4
+          points: 3
         }}
   />
  

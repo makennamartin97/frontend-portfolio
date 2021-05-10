@@ -834,6 +834,8 @@ img{
   .section1 .bg{
     
     opacity: .9;
+    background-attachment: scroll;
+    background-position: center;
   }
   .picgroup{
     margin-top: 40px;
@@ -868,6 +870,7 @@ img{
   }
   .nav {
     display: flex;
+    
     
     align-items: center;
     padding: 0px 0px;
