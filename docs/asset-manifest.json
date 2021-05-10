@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/frontend-portfolio/static/css/main.8c78ba34.chunk.css",
+    "main.js": "/frontend-portfolio/static/js/main.bc382337.chunk.js",
+    "main.js.map": "/frontend-portfolio/static/js/main.bc382337.chunk.js.map",
+    "runtime-main.js": "/frontend-portfolio/static/js/runtime-main.c514da80.js",
+    "runtime-main.js.map": "/frontend-portfolio/static/js/runtime-main.c514da80.js.map",
+    "static/css/2.800be05e.chunk.css": "/frontend-portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.28d07962.chunk.js": "/frontend-portfolio/static/js/2.28d07962.chunk.js",
+    "static/js/2.28d07962.chunk.js.map": "/frontend-portfolio/static/js/2.28d07962.chunk.js.map",
+    "static/js/3.dcccc340.chunk.js": "/frontend-portfolio/static/js/3.dcccc340.chunk.js",
+    "static/js/3.dcccc340.chunk.js.map": "/frontend-portfolio/static/js/3.dcccc340.chunk.js.map",
+    "index.html": "/frontend-portfolio/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/frontend-portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.8c78ba34.chunk.css.map": "/frontend-portfolio/static/css/main.8c78ba34.chunk.css.map",
+    "static/js/2.28d07962.chunk.js.LICENSE.txt": "/frontend-portfolio/static/js/2.28d07962.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/frontend-portfolio/static/media/miami2.253d2182.jpg",
+    "static/media/bootstrap copy.6eff491a.png": "/frontend-portfolio/static/media/bootstrap copy.6eff491a.png",
+    "static/media/crud.63fa39b4.gif": "/frontend-portfolio/static/media/crud.63fa39b4.gif",
+    "static/media/cs.83dfa097.png": "/frontend-portfolio/static/media/cs.83dfa097.png",
+    "static/media/csharp.acf4b644.png": "/frontend-portfolio/static/media/csharp.acf4b644.png",
+    "static/media/css3 copy.0a175b53.png": "/frontend-portfolio/static/media/css3 copy.0a175b53.png",
+    "static/media/django2 copy.a6eb1432.png": "/frontend-portfolio/static/media/django2 copy.a6eb1432.png",
+    "static/media/expressjs copy.d6e21c98.png": "/frontend-portfolio/static/media/expressjs copy.d6e21c98.png",
+    "static/media/finallogo2.20d5d7e6.png": "/frontend-portfolio/static/media/finallogo2.20d5d7e6.png",
+    "static/media/html2 copy.a55d95bf.png": "/frontend-portfolio/static/media/html2 copy.a55d95bf.png",
+    "static/media/js copy.db7cd700.png": "/frontend-portfolio/static/media/js copy.db7cd700.png",
+    "static/media/kirby.f031f834.gif": "/frontend-portfolio/static/media/kirby.f031f834.gif",
+    "static/media/minime.8244a757.jpg": "/frontend-portfolio/static/media/minime.8244a757.jpg",
+    "static/media/mongodb copy.5fc49d78.png": "/frontend-portfolio/static/media/mongodb copy.5fc49d78.png",
+    "static/media/mysql copy.a94adcf1.png": "/frontend-portfolio/static/media/mysql copy.a94adcf1.png",
+    "static/media/nodejs copy.8674298c.png": "/frontend-portfolio/static/media/nodejs copy.8674298c.png",
+    "static/media/weatherapi2.84d4d0b7.gif": "/frontend-portfolio/static/media/weatherapi2.84d4d0b7.gif",
+    "static/media/weddingplanner2.ad94f821.gif": "/frontend-portfolio/static/media/weddingplanner2.ad94f821.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c514da80.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.28d07962.chunk.js",
+    "static/css/main.8c78ba34.chunk.css",
+    "static/js/main.bc382337.chunk.js"
+  ]
+}
