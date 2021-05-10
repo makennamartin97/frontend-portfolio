@@ -59,6 +59,7 @@ const Skills = () => {
                     <li><img src={a}/>Django</li>
                     <li><img src={a}/>Flask</li>
                     <li><img src={a}/>.Net Core</li>
+                    <li><img src={a}/>JQuery</li>
                     <li><img src={a}/>Bootstrap</li>
                     </ul>
                     

@@ -196,12 +196,11 @@ class Projects extends Component {
                     </Modal.Header>
                     <Modal.Body>
                         <h4>Description:</h4>
-                        <p>A single page front-end freelance application for a local dog walking company that is responsive on all devices and features animations and an email contact system.</p>
+                        <p>A single page front-end freelance project for a local dog walking company that is responsive on all devices and features an email contact system.</p>
                         <h4>Technologies used to build this project:</h4>
                         <ul>
                             
                             <li>React</li>
-                            <li>EmailJS</li>
                             <li>Bootstrap</li>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -232,7 +231,7 @@ class Projects extends Component {
                     <Fade top>
                         <div className="anotherone">
                         <div className="thename">
-                            <h3 id="l1">My Portfolio</h3>
+                            <h3 id="l1">Portfolio | makenna-martin.com</h3>
 
                         </div>
                         <div className="detail">

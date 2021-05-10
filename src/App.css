@@ -438,7 +438,7 @@ label {
 .content{
   display: flex;
   justify-content: space-evenly;
-  font-family: ano2light;
+
 
 }
 .content ul{
@@ -504,14 +504,14 @@ label {
   text-decoration: none;
 }
 #l3{
-  margin-right: 775px;
+  margin-right: 645px;
   
 }
 #l2{
   margin-right: 545px;
 }
 #l1{
-  margin-right: 130px;
+  margin-right: 148px;
 
 }
 .thename .year {
@@ -573,11 +573,7 @@ label {
   opacity:.2;
 
 }
-.proj:hover .overlay{
-  
-  transition:background-color 2s ease-in-out 1s;
 
-}
 .projbtn, .projbtn2,.projbtn3,.projbtn4{
 
   position: absolute;
@@ -615,6 +611,10 @@ label {
 .modal-body h5 a{
   color:#5200ff;
 }
+.modal-body h4 h5 p{
+  font-family: ano2light!important;
+}
+
 
 
 
@@ -1020,7 +1020,7 @@ img{
   .content{
     display: flex;
     flex-direction: column;
-    font-family: ano2light;
+    
   }
   .skillslist ul li{
     margin: 3px 0;
