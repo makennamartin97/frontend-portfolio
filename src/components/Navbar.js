@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="logo-nav">
             <div className="logo-container">
         
-            <a href="#"><img src={logo} className="navlogo" alt="logo"/></a>
+            <a href="/frontend-portfolio"><img src={logo} className="navlogo" alt="logo"/></a>
             </div>
 
             
@@ -29,16 +29,16 @@ const Navbar = () => {
                     <a href="/#about">ABOUT ME</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#skills" >SKILLS</a>
+                    <a href="/frontend-portfolio/#skills" >SKILLS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#experience" >EXPERIENCE</a>
+                    <a href="/frontend-portfolio/#experience" >EXPERIENCE</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#projects" >PROJECTS</a>
+                    <a href="/frontend-portfolio/#projects" >PROJECTS</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#contact" >CONTACT</a>
+                    <a href="/frontend-portfolio/#contact" >CONTACT</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
                     <a href="https://docs.google.com/document/d/e/2PACX-1vRm3YCF2A6i5X5K8gVRSywGir5pEfqh2aynf6Ykko7byabrBDLLTaBPtXHKd2KfVv40DqL3B1hEp_Ql/pub">RESUME</a>
