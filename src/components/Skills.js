@@ -1,5 +1,4 @@
-import React,{useState} from 'react';
-import LightSpeed from 'react-reveal/LightSpeed';
+import React from 'react';
 import Spin from 'react-reveal/Spin';
 import Fade from 'react-reveal/Fade';
 import js from '../images/js copy.png';

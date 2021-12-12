@@ -38,14 +38,14 @@ const Section1= () => {
             </div>
    
             <Wave id="wave"fill='#5000ff'
-        paused={false}
-        options={{
-          height: 2,
-          amplitude: 18,
-          speed: 0.20,
-          points: 3
-        }}
-  />
+                paused={false}
+                options={{
+                    height: 2,
+                    amplitude: 18,
+                    speed: 0.20,
+                    points: 3
+                }}
+            />
  
         </div>
        

@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="logo-nav">
             <div className="logo-container">
         
-            <a href="/frontend-portfolio/"><img src={logo} className="navlogo" alt="logo"/></a>
+            <a href="/"><img src={logo} className="navlogo" alt="logo"/></a>
             </div>
 
             
@@ -26,28 +26,23 @@ const Navbar = () => {
             <ul className={click ? "nav-options active" : "nav-options"}>
                 
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#about">ABOUT ME</a>
+                    <a href="/#about">About Me</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#skills" >SKILLS</a>
+                    <a href="/#skills" >Skills</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#experience" >EXPERIENCE</a>
+                    <a href="/#experience" >Experience</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#projects" >PROJECTS</a>
+                    <a href="/#projects" >Projects</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
-                    <a href="/#contact" >CONTACT</a>
+                    <a href="/#contact" >Contact</a>
                 </li>
                 <li className="option" onClick={closeMobileMenu}>
                     <a href="https://docs.google.com/document/d/e/2PACX-1vRm3YCF2A6i5X5K8gVRSywGir5pEfqh2aynf6Ykko7byabrBDLLTaBPtXHKd2KfVv40DqL3B1hEp_Ql/pub">RESUME</a>
                 </li>
-               
-                
-
-
-
             </ul>
             </div>
             <div className="mobile-menu" onClick={handleClick}>

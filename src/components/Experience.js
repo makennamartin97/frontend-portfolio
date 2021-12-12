@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Spin from 'react-reveal/Spin';
 import Fade from 'react-reveal/Fade';
 import a from '../images/arrow.png';

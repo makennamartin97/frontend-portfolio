@@ -1,4 +1,4 @@
-import React,{useState, Component, } from 'react';
+import React,{Component } from 'react';
 import Spin from 'react-reveal/Spin';
 import Fade from 'react-reveal/Fade';
 import a from '../images/arrow.png';
@@ -43,9 +43,9 @@ class Projects extends Component {
         <div className="projects" id="projects">
             
             <div className="title">
-            <Spin>
-                <h2>Projects</h2>
-            </Spin>
+                <Spin>
+                    <h2>Projects</h2>
+                </Spin>
             </div>
             
             <div className="projrow">
@@ -207,7 +207,7 @@ class Projects extends Component {
                             
 
                         </ul>
-                        <h5>See it deployed live <a href="https://kirbyandpals.com">here</a></h5>
+                        <h5>*No longer deployed live at kirbyandpals domain*</h5>
                         <h5>See the source code on Github <a href="https://github.com/makennamartin97/kirby-and-pals2">here</a></h5>
                     </Modal.Body>
                     <Modal.Footer>
